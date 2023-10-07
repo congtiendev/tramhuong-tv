@@ -11,13 +11,18 @@
         href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hidden__scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
     <div style="font-family: 'Roboto', sans-serif;"
         class="md:container md:max-h-[540px] xl:max-h-[648px] overflow-hidden w-full mx-auto flex flex-col-reverse md:flex-row justify-center content-center h-fit">
         <aside id="aside"
-            class="max-h-[400px] md:max-h-[540px]  xl:max-h-[648px] overflow-y-scroll w-full md:w-[25%]  px-3 flex flex-col gap-5 bg-black text-white py-3">
+            class="max-h-[400px] md:max-h-[540px] hidden__scrollbar  xl:max-h-[648px] overflow-y-scroll w-full md:w-[25%]  px-3 flex flex-col gap-5 bg-black text-white py-3">
             <div class="relative w-full h-0 pb-[56.25%]">
                 <img class="w-[200px] h-auto mx-auto"
                     src="https://nhatphamtramhuong.vn/wp-content/uploads/2023/09/NHAT-PHAM-3.png" alt="">
